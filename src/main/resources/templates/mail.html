@@ -1,0 +1,109 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <style type="text/css">
+        td,
+        th {
+            font-style: normal;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        tr {
+            height: 48px;
+        }
+
+        .twoHead th {
+            width: 6.25%;
+            height: 48px;
+            padding: 0 10px;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .firstHead th {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        table {
+            border: none;
+            border-collapse: collapse;
+            border-color: #D8DFE6;
+        }
+
+        table thead {
+            background: #F3FDFF;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<p style="font-size:27;color:red;text-align:center">{{time}} BTCUSDT 合约 BINANCE-COINBENE做市报告</p><br>
+<div class="table">
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <thead>
+        <tr class="firstHead">
+            <th colspan="1" rowspan="2">时间</th>
+            <th colspan="1" rowspan="2">合约提供流动性【张】</th>
+            <th colspan="1" rowspan="2">盈亏【USDT】</th>
+            <th colspan="4">当前账户信息</th>
+        </tr>
+        <tr class="twoHead">
+            <th>币安资产【USDT】</th>
+            <th>coinbene资产【USDT】</th>
+            <th>总资产【USDT】</th>
+            <th>总资产【BTC】</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{time}}</td>
+            <td>{{quatity}}</td>
+            <td>{{price}}</td>
+            <td>{{binance}}</td>
+            <td>{{coinbene}}</td>
+            <td>{{total}}</td>
+            <td>{{totalBTC}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<p style="font-size:27;color:red;text-align:center">{{time}} ETHUSDT合约 BINANCE-COINBENE做市报告</p><br>
+<div class="table">
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <thead>
+        <tr class="firstHead">
+            <th colspan="1" rowspan="2">时间</th>
+            <th colspan="1" rowspan="2">合约提供流动性【张】</th>
+            <th colspan="1" rowspan="2">盈亏【USDT】</th>
+            <th colspan="4">当前账户信息</th>
+        </tr>
+        <tr class="twoHead">
+            <th>币安资产【USDT】</th>
+            <th>coinbene资产【USDT】</th>
+            <th>总资产【USDT】</th>
+            <th>总资产【BTC】</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{ethtime}}</td>
+            <td>{{ethquatity}}</td>
+            <td>{{ethPrice}}</td>
+            <td>{{ethbinance}}</td>
+            <td>{{ethcoinbene}}</td>
+            <td>{{ethtotal}}</td>
+            <td>{{ethtotalBTC}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

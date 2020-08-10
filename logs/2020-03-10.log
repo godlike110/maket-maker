@@ -1,0 +1,938 @@
+2020-03-10 10:52:30 [INFO] - Starting App on zhiweiwendeMacBook-Pro.local with PID 14000 (/Users/zhiwei/workspace/spot-market-maker/target/classes started by zhiwei in /Users/zhiwei/workspace/spot-market-maker)
+2020-03-10 10:52:30 [INFO] - The following profiles are active: dev
+2020-03-10 10:53:07 [INFO] - Starting App on zhiweiwendeMacBook-Pro.local with PID 14017 (/Users/zhiwei/workspace/spot-market-maker/target/classes started by zhiwei in /Users/zhiwei/workspace/spot-market-maker)
+2020-03-10 10:53:07 [INFO] - The following profiles are active: dev
+2020-03-10 10:53:08 [WARN] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-10 10:53:13 [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73fbf7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 10:53:14 [INFO] - Tomcat initialized with port(s): 9334 (http)
+2020-03-10 10:53:14 [INFO] - Initializing ProtocolHandler ["http-nio-9334"]
+2020-03-10 10:53:14 [INFO] - Starting service [Tomcat]
+2020-03-10 10:53:14 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-03-10 10:53:14 [INFO] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhiwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-10 10:53:14 [INFO] - Initializing Spring embedded WebApplicationContext
+2020-03-10 10:53:14 [INFO] - Root WebApplicationContext: initialization completed in 7334 ms
+2020-03-10 10:53:17 [INFO] - 交易对:BTC/USDT 账户订单同步启动
+2020-03-10 10:53:17 [INFO] - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-03-10 10:53:17 [INFO] - [Sub][0] Connecting...
+2020-03-10 10:53:17 [INFO] - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-03-10 10:53:17 [INFO] - [Sub][1] Connecting...
+2020-03-10 10:53:19 [INFO] - 交易对:BTC/USDT 挂单刷量策略启动
+2020-03-10 10:53:19 [INFO] - 交易对:ETH/USDT 账户订单同步启动
+2020-03-10 10:53:19 [INFO] - [Sub] Connection [id: 2] created for PriceDepth for [ethusdt]
+2020-03-10 10:53:19 [INFO] - [Sub][2] Connecting...
+2020-03-10 10:53:19 [INFO] - [Sub] Connection [id: 3] created for Trade for [ethusdt]
+2020-03-10 10:53:19 [INFO] - [Sub][3] Connecting...
+2020-03-10 10:53:20 [INFO] - 交易对:ETH/USDT 挂单刷量策略启动
+2020-03-10 10:53:20 [INFO] - 交易对:LTC/USDT 账户订单同步启动
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 4] created for PriceDepth for [ltcusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][4] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 5] created for Trade for [ltcusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][5] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub][0] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][1] Connected to server
+2020-03-10 10:53:20 [INFO] - 交易对:LTC/USDT 挂单刷量策略启动
+2020-03-10 10:53:20 [INFO] - 交易对:HT/USDT 账户订单同步启动
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 6] created for PriceDepth for [htusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][6] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 7] created for Trade for [htusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][7] Connecting...
+2020-03-10 10:53:20 [INFO] - 交易对:HT/USDT 挂单刷量策略启动
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 8] created for PriceDepth for [xtzusdt]
+2020-03-10 10:53:20 [INFO] - 交易对:XTZ/USDT 账户订单同步启动
+2020-03-10 10:53:20 [INFO] - [Sub][8] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 9] created for Trade for [xtzusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][9] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub][5] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][7] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][4] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][6] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][2] Connected to server
+2020-03-10 10:53:20 [INFO] - 交易对:XTZ/USDT 挂单刷量策略启动
+2020-03-10 10:53:20 [INFO] - 交易对:GGC/USDT 账户订单同步启动
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 10] created for PriceDepth for [ethusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][10] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub] Connection [id: 11] created for Trade for [ethusdt]
+2020-03-10 10:53:20 [INFO] - [Sub][11] Connecting...
+2020-03-10 10:53:20 [INFO] - [Sub][8] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][9] Connected to server
+2020-03-10 10:53:20 [INFO] - 交易对:GGC/USDT 挂单刷量策略启动
+2020-03-10 10:53:20 [INFO] - [Sub][10] Connected to server
+2020-03-10 10:53:20 [INFO] - [Sub][11] Connected to server
+2020-03-10 10:53:21 [INFO] - [Sub][3] Connected to server
+2020-03-10 10:53:21 [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 10:53:22 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:23 [INFO] - Initializing ExecutorService 'taskScheduler'
+2020-03-10 10:53:23 [INFO] - Exposing 15 endpoint(s) beneath base path ''
+2020-03-10 10:53:23 [INFO] - Starting ProtocolHandler ["http-nio-9334"]
+2020-03-10 10:53:23 [INFO] - Tomcat started on port(s): 9334 (http) with context path ''
+2020-03-10 10:53:23 [INFO] - Started App in 18.213 seconds (JVM running for 20.594)
+2020-03-10 10:53:24 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:24 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:25 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:253)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:25 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:25 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:253)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:26 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:30 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:30 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:31 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:31 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:32 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:33 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:33 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:34 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:253)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:35 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:36 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:36 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:37 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:39 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:39 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:253)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:40 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:40 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:41 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:42 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:265)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:43 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:43 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:43 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:44 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:45 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:53:45 [INFO] - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 10:53:45 [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 10:54:53 [INFO] - Starting App on zhiweiwendeMacBook-Pro.local with PID 14047 (/Users/zhiwei/workspace/spot-market-maker/target/classes started by zhiwei in /Users/zhiwei/workspace/spot-market-maker)
+2020-03-10 10:54:53 [INFO] - The following profiles are active: dev
+2020-03-10 10:54:54 [WARN] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-10 10:55:32 [INFO] - Starting App on zhiweiwendeMacBook-Pro.local with PID 14065 (/Users/zhiwei/workspace/spot-market-maker/target/classes started by zhiwei in /Users/zhiwei/workspace/spot-market-maker)
+2020-03-10 10:55:32 [INFO] - The following profiles are active: prod
+2020-03-10 10:55:33 [WARN] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-10 10:55:37 [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe46e661] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 10:55:38 [INFO] - Tomcat initialized with port(s): 9334 (http)
+2020-03-10 10:55:38 [INFO] - Initializing ProtocolHandler ["http-nio-9334"]
+2020-03-10 10:55:38 [INFO] - Starting service [Tomcat]
+2020-03-10 10:55:38 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-03-10 10:55:38 [INFO] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhiwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-10 10:55:38 [INFO] - Initializing Spring embedded WebApplicationContext
+2020-03-10 10:55:38 [INFO] - Root WebApplicationContext: initialization completed in 5633 ms
+2020-03-10 10:55:40 [INFO] - 交易对:BTC/USDT 账户订单同步启动
+2020-03-10 10:55:40 [INFO] - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-03-10 10:55:40 [INFO] - [Sub][0] Connecting...
+2020-03-10 10:55:40 [INFO] - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-03-10 10:55:40 [INFO] - [Sub][1] Connecting...
+2020-03-10 10:55:44 [INFO] - [Sub][1] Connected to server
+2020-03-10 10:55:44 [INFO] - [Sub][0] Connected to server
+2020-03-10 10:55:46 [INFO] - 交易对:BTC/USDT 挂单刷量策略启动
+2020-03-10 10:55:46 [INFO] - 交易对:ETH/USDT 账户订单同步启动
+2020-03-10 10:55:46 [INFO] - [Sub] Connection [id: 2] created for PriceDepth for [ethusdt]
+2020-03-10 10:55:46 [INFO] - [Sub][2] Connecting...
+2020-03-10 10:55:46 [INFO] - [Sub] Connection [id: 3] created for Trade for [ethusdt]
+2020-03-10 10:55:46 [INFO] - [Sub][3] Connecting...
+2020-03-10 10:55:47 [INFO] - 交易对:ETH/USDT 挂单刷量策略启动
+2020-03-10 10:55:47 [INFO] - 交易对:LTC/USDT 账户订单同步启动
+2020-03-10 10:55:47 [INFO] - [Sub] Connection [id: 4] created for PriceDepth for [ltcusdt]
+2020-03-10 10:55:47 [INFO] - [Sub][4] Connecting...
+2020-03-10 10:55:47 [INFO] - [Sub] Connection [id: 5] created for Trade for [ltcusdt]
+2020-03-10 10:55:47 [INFO] - [Sub][5] Connecting...
+2020-03-10 10:55:47 [INFO] - [Sub][2] Connected to server
+2020-03-10 10:55:47 [INFO] - [Sub][3] Connected to server
+2020-03-10 10:55:47 [INFO] - 交易对:HT/USDT 账户订单同步启动
+2020-03-10 10:55:47 [INFO] - 交易对:LTC/USDT 挂单刷量策略启动
+2020-03-10 10:55:47 [INFO] - [Sub] Connection [id: 6] created for PriceDepth for [htusdt]
+2020-03-10 10:55:47 [INFO] - [Sub][6] Connecting...
+2020-03-10 10:55:47 [INFO] - [Sub] Connection [id: 7] created for Trade for [htusdt]
+2020-03-10 10:55:47 [INFO] - [Sub][7] Connecting...
+2020-03-10 10:55:48 [INFO] - [Sub][5] Connected to server
+2020-03-10 10:55:48 [INFO] - [Sub][4] Connected to server
+2020-03-10 10:55:49 [INFO] - [Sub][6] Connected to server
+2020-03-10 10:55:49 [INFO] - [Sub][7] Connected to server
+2020-03-10 10:55:53 [INFO] - 交易对:HT/USDT 挂单刷量策略启动
+2020-03-10 10:55:53 [INFO] - 交易对:XTZ/USDT 账户订单同步启动
+2020-03-10 10:55:53 [INFO] - [Sub] Connection [id: 8] created for PriceDepth for [xtzusdt]
+2020-03-10 10:55:53 [INFO] - [Sub][8] Connecting...
+2020-03-10 10:55:53 [INFO] - [Sub] Connection [id: 9] created for Trade for [xtzusdt]
+2020-03-10 10:55:53 [INFO] - [Sub][9] Connecting...
+2020-03-10 10:55:53 [INFO] - 交易对:XTZ/USDT 挂单刷量策略启动
+2020-03-10 10:55:53 [INFO] - 交易对:GGC/USDT 账户订单同步启动
+2020-03-10 10:55:53 [INFO] - [Sub] Connection [id: 10] created for PriceDepth for [ethusdt]
+2020-03-10 10:55:53 [INFO] - [Sub][10] Connecting...
+2020-03-10 10:55:53 [INFO] - [Sub] Connection [id: 11] created for Trade for [ethusdt]
+2020-03-10 10:55:53 [INFO] - [Sub][11] Connecting...
+2020-03-10 10:55:54 [INFO] - [Sub][9] Connected to server
+2020-03-10 10:55:54 [INFO] - [Sub][8] Connected to server
+2020-03-10 10:55:55 [INFO] - 交易对:GGC/USDT 挂单刷量策略启动
+2020-03-10 10:55:55 [INFO] - [Sub][10] Connected to server
+2020-03-10 10:55:55 [INFO] - [Sub][11] Connected to server
+2020-03-10 10:55:56 [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 10:55:57 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:55:58 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:55:58 [INFO] - Initializing ExecutorService 'taskScheduler'
+2020-03-10 10:55:58 [INFO] - Exposing 15 endpoint(s) beneath base path ''
+2020-03-10 10:55:58 [INFO] - Starting ProtocolHandler ["http-nio-9334"]
+2020-03-10 10:55:58 [INFO] - Tomcat started on port(s): 9334 (http) with context path ''
+2020-03-10 10:55:58 [INFO] - Started App in 27.589 seconds (JVM running for 29.957)
+2020-03-10 10:56:01 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:01 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:15 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:22 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:265)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:27 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:27 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:41 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:45 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:47 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:49 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:253)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:49 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:52 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:56:59 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:02 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:04 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:06 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:07 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:08 [ERROR] - StatusUpdater error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: timeout
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.getAllUserAssets(SpotApiRestClientImpl.java:100)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.getAssets(StatusUpdater.java:79)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.run(StatusUpdater.java:50)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:232)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 4 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 28 common frames omitted
+2020-03-10 10:57:14 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Insufficient balance or account is frozen
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:254)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:21 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:25 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:30 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:31 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:31 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: Total amount must be at least 1
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:73)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.privatePlaceOrder(SpotApiRestClientImpl.java:79)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.flood(MarketMaker.java:199)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:412)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+2020-03-10 10:57:38 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: Read timed out
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.cancelOrders(SpotApiRestClientImpl.java:95)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.cancelOrders(MarketMaker.java:226)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:384)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 7 common frames omitted
+2020-03-10 10:57:45 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: Read timed out
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:265)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 8 common frames omitted
+2020-03-10 10:57:54 [ERROR] - StatusUpdater error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: timeout
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.getAllUserAssets(SpotApiRestClientImpl.java:100)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.getAssets(StatusUpdater.java:79)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.run(StatusUpdater.java:50)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:232)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 4 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 28 common frames omitted
+2020-03-10 10:57:59 [ERROR] - market maker error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: Read timed out
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.placeOrder(SpotApiRestClientImpl.java:73)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.newOrder(MarketMaker.java:242)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.placeMMOrders(MarketMaker.java:259)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mmOrder(MarketMaker.java:385)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.mm(MarketMaker.java:119)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.work(MarketMaker.java:413)
+	at com.yoyo.spot.mmaker.server.runners.MarketMaker.run(MarketMaker.java:403)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 8 common frames omitted
+2020-03-10 10:58:00 [ERROR] - StatusUpdater error
+com.yoyo.spot.openapi.client.exception.ApiException: java.net.SocketTimeoutException: timeout
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:76)
+	at com.yoyo.spot.openapi.client.impl.SpotApiRestClientImpl.getOpenOrder(SpotApiRestClientImpl.java:126)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.getOpenOrder(StatusUpdater.java:84)
+	at com.yoyo.spot.mmaker.server.runners.StatusUpdater.run(StatusUpdater.java:51)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:232)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at com.yoyo.spot.openapi.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+	at com.yoyo.spot.openapi.client.impl.SpotApiServiceGenerator.executeSync(SpotApiServiceGenerator.java:68)
+	... 4 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 28 common frames omitted
+2020-03-10 10:58:03 [INFO] - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 10:58:03 [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'

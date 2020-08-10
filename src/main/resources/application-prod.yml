@@ -1,0 +1,84 @@
+server:
+  port: 9334
+
+
+apollo:
+  bootstrap:
+    enabled: true
+  namespaces: application
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /
+
+pebble:
+  prefix: /templates/
+  suffix: .html
+  content-type: text/html
+
+
+spring:
+  application:
+    name: spot-market-maker
+  profiles:
+    active: prod
+
+
+
+  #数据库
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    platform: mysql
+    initialSize: 1000
+    minIdle: 5
+    maxActive: 1000
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    filters: stat,wall,log4j
+    logSlowSql: true
+    url: jdbc:mysql://127.0.0.1:3306/contract_quant?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 5W0f9BnwPHtlrxQENL3jzI4O
+
+
+mybatis:
+  mapper-locations: classpath*:mybatis/*.xml
+
+yoyo-spot:
+  host: http://api.yoyoex.com
+  apiid: 281772604967854080
+  privateKey: MIIEogIBAAKCAQEAum7hMxwXUW+FbdYEDLGOpTqBZBd1a9MSsvFMGkSxq25F6jyg
+    zQRk0p3GGpGUnKt2MUl8a+LbNu4v7KwojhAv2ASNPdF9WVZV9uWCzHOv/vWpgcal
+    MqrQLAU8+JlLj83MRX36z7bfX+glZ6ILHu0bG5w6P5Tj5ueKU8E3I5DeB1zgiA/o
+    YPrBH2Nsjtl4uupJtB+W/csXx2YCc6NH3bIESDN+sfsd0fjIyImzee0fFAG+rsTc
+    awJ0+o9/I38J7Po/EHApChLYth5F9G7Z3erV6Klktwr4lIZoFJ02JM3WpFiYwBou
+    KPKOw9fqFrRwa+6VEEPDMTHP3kvGi+tCTNfzcwIDAQABAoIBABbkLHSpG1fdeKWu
+    5JpmZtx03ZRbqQhPR3l/VVfYXXRuOtlzDk9+HZ8azktO2s+N4hpVKpjYpxAMmQfX
+    b7dZ13YPwQP5KAoDJtUFA1V1UwPcSC7uJDSfcqYlEoJ32CZVH6LcwCInEzBkgctC
+    w1jNxklSmnhaIM2mWn7EN6//RrPihuyqyK+yE8o3bsoq42Izt0VAlPYpX2nqPS5u
+    4WuXMuCvNe25Aqvf5xjJHV1r3oq1SfqRkcmYAe23iyrHPOUDkuOsj3fDSkwKLZp+
+    eFHZBennywQ/mybO654cDPg/2cTNoT9HHwn0IGIa/+58ZnAjsyvtN9L0tV39e834
+    SgIL7IkCgYEA3BIoMAoLqtOqxa5W8/w/wukGJSS587beXT0GUELa4Pmo4opRBV9E
+    /G1CvFncB7WhrMJ0fwQT1u7BLikaxrcFyAIumkHXeOWtp8laSU7WC4GqsVN0LN09
+    658C3xed3wP1S+N8Rm5AkRUaS4RE2CxOJP+eqkIPkTQj6T+Mri91KhUCgYEA2N7V
+    gwFth1ml+jVNTzt3OpH3v3K+0nRvHUlROZH6BaD/iRG3IFdjcHVbcrvhPty14UDr
+    WNDYLCn7RZxOtCOlwzVXDxL39d25AQWiTEckEYnnOaOTwsNm0oNLBwgyzE7eu8Pi
+    5dFvtqsaES3dOZ6FUraiHWoK6l6at1zYfLCOMWcCgYBt93S1bI+f8NzootE4YdfK
+    oX48mTmCGuLKXHAHMyEEQjyt1sfdk1l5eW9bhtt3zr7XAOQNhBAV2oAVfNywZ0ww
+    QUbgNf5hnwNDUE4ZS5eRcF3G9hibQoJqdq6Mo9RzWBr+rNGwr+77kDvveEyeaKUz
+    v7edBB2bRR6csvCtKXG2cQKBgAaWpnfnaDNvdspmKiYZEWM3Igav7rooDWQfYRdV
+    pvnazUiVwDF8VioJdrDConItdF0Wgs/c8GRPFjIkMIPqfVOz4CQ2GFBg3wj36dlV
+    Y/Qgc2Td4lRNaWdF09av2hM45i1gIxmGRlWPVyhkc08X0McVg1FPcmtyWlLtwCnx
+    lzBLAoGARXISUnEk/CstbFwTLqRbSiE6P5ngWg0E9c0F+geQMlyszfO1Un7Erq3s
+    4QGDl+jPZ7Te25BcVLY/ZkzHqOmvh7yMyuG6VCkCYs5PdFrP5XBbGA3sQz9pK0EO
+    16XoIEN0Qt7JOdDiHn2GostN2LW5P06Cdyi35VxnISDzXTmKESE=

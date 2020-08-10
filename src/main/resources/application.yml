@@ -1,0 +1,84 @@
+server:
+  port: 9334
+
+apollo:
+  bootstrap:
+    enabled: true
+  namespaces: application
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /
+
+pebble:
+  prefix: /templates/
+  suffix: .html
+  content-type: text/html
+
+
+spring:
+  application:
+    name: contract-quate
+  profiles:
+    active: prod
+
+
+
+  #数据库
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    platform: mysql
+    initialSize: 1000
+    minIdle: 5
+    maxActive: 1000
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    filters: stat,wall,log4j
+    logSlowSql: true
+    url: jdbc:mysql://127.0.0.1:3306/contract_quant?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 4KkkZ7qja3OWju78rrkH
+
+mybatis:
+  mapper-locations: classpath*:mybatis/*.xml
+
+
+yoyo-spot:
+  host: http://api.dev.mochini.cn
+#  host: http://127.0.0.1:18000
+  apiid: 280238308805427200
+  privateKey: MIIEowIBAAKCAQEA990ZEeXevkki248OggU71YbQ47+ZMC38f1MWR0e7wX9MKjBD
+    rb5WnFK3787Jl4YoayIInSzlbIvEob7uriDRylsz+4g6b4q6C85tLmaBph7Bg3gJ
+    5Pw7ZSWtBqaP9HZvGtIN0MuJTQtyBex6+j0JGM6bHPMnibKz27W+vuhilKlDytHH
+    95A1wLFbQSsPjK2DCDO87KHSHAJaIZr2muHyVsoQ8nQs9Nb0RwvAXnNNM+Ptcx1d
+    Uh9TGirmL+QsQiX9yqpeQIP3U5g6cDnA6CTlza1XkQS8O+a2zzkzaNcgUmMM+3YA
+    Kz7N4X1pruiQHpjDKRkTX274irBDaVeYImzJNQIDAQABAoIBAA0ZILxGpLrzA/XM
+    zUQ3MRaDUZIbe6WlZHi5BA4fvw8GYli/ZLAvhQWtRF2WlKYed4/TxFdD+lq+VxWC
+    ELxgbR2vrKNP62CeGN9LWQ8w6QyFhw3iv8kbQCtD7q0Ri71sLcphy8ubGeYZovyn
+    pscHBy5Jqr5Apjf7WtBTPiF6B82ZuqRd2ELvEha2oYU+5m4T+mHsXItdbcBNE+wr
+    gjWRBzsJQJifoclbi9zLOY6ubuvX1gFPRy7AyjgLCyje7QVXT80tO9Z59fMPBdpq
+    k9GUf6i441HdWXCvvLJ/0YVHHNa7DfDUfVv4f/nfHb/gDkX5KhdOQuIpCORqDAdV
+    dxrAaSkCgYEA/5yXkUHlc76dKBH62kh5wV+C2V7s6SOFsh6DvjlfkEdLtZMBdGjA
+    P3M5mzY0TBDbC94qTko2hK2ohbwf7Ll3WAltqCaPQit389zP2uJbcksjJ36PIP8u
+    A3QorFUgGPYyxOms4pGOJepxlN1ViXgwTU3X8VSHw060zTMKG8brIp0CgYEA+D1+
+    Hgl8L+xUmmJmzYEUzkm0mw8oybkO/9i0B6Tso1z6/jnARMD9dxkv+lP9Bi4MT6eq
+    v33i26F4qO+mBffeaDfWbMIZfOJsKPnL70mtMkwKHrgsXfli+0xj9lYjyr1YNB6w
+    isNfT+sjcILdbtYzh5SsNYtmH3zG2qiLgiThEXkCgYBMHhmUjAcEHLM4B4KoFgUL
+    7KFOkdIC6y0ZCbU5pGQs1s5Y19oLDFaTjoCNE+sm664PLq1yeu8ZO41/pbHsEJ7V
+    fJlHBZSLo94opIzRJa8Nrgpd7HY64UKWjLS//Ol+BXLA6MUvAyFNcS85oV+jfEMG
+    AjRYDVAQfROiN5y/ANFskQKBgEiLL9/3RaN7nP3A4+oKXtoqD+2AcJsCya9a1MGn
+    IMBc27yPg/CTtX6ojazJ/pdfvZlJlkx/rVwhw/Eal5oG5afvKWp/DpPAV3tiBIbZ
+    MRQRxKNVjyGnT5XArTW/1pXY333buhvTHHdub9zhYXSShFyKxgifxChPfo1H0/0k
+    aeGBAoGBAPg17QsBSFy/tTXX6B2A6JNLauC+gTOJ2xyTDR7ZDkLIOEOy94kgrYKG
+    BkZ4TLXQxpCEIJF6nBeJyfzTVlj4FpK+krJkubJ/1HWCPvr6/9RzrPsZdL4FTEaR
+    eMmrOyTxLrHNwJd0l4G2BxBIxABliwoHG1qYScTiVjYY9FynL3nw

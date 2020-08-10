@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+  <!-- 生成mybatis文件时 改成本地路径-->
+  <classPathEntry location="/Users/coinbene/.m2/repository/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45.jar"/>
+
+  <context id="context1">
+
+    <commentGenerator>
+      <property name="suppressDate" value="true"/>
+      <property name="suppressAllComments" value="true" />
+    </commentGenerator>
+
+    <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/contract_quant" driverClass="com.mysql.jdbc.Driver" password="12345" userId="root" />
+    <javaModelGenerator targetPackage="com.coinbene.contract.quantification.entity" targetProject="src/main/java" />
+    <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/resources" />
+    <javaClientGenerator targetPackage="com.coinbene.contract.quantification.dao" targetProject="src/main/java" type="XMLMAPPER" />
+
+    <table schema="bitmex_order" tableName="bitmex_order">
+
+    </table>
+
+  </context>
+
+</generatorConfiguration>

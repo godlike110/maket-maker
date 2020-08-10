@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yoyo.spot.mmaker.server.dao.BitmexOrderMapper" >
+  <resultMap id="BaseResultMap" type="com.yoyo.spot.mmaker.server.entity.BitmexOrder" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="first_bm_order_id" property="firstBmOrderId" jdbcType="VARCHAR" />
+    <result column="quatity" property="quatity" jdbcType="INTEGER" />
+    <result column="real_quatity" property="realQuatity" jdbcType="INTEGER" />
+    <result column="first_price" property="firstPrice" jdbcType="DECIMAL" />
+    <result column="first_status" property="firstStatus" jdbcType="VARCHAR" />
+    <result column="sec_bm_order_id" property="secBmOrderId" jdbcType="VARCHAR" />
+    <result column="sec_quatity" property="secQuatity" jdbcType="INTEGER" />
+    <result column="sec_price" property="secPrice" jdbcType="DECIMAL" />
+    <result column="sec_status" property="secStatus" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, first_bm_order_id, quatity, real_quatity, first_price, first_status, sec_bm_order_id, 
+    sec_quatity, sec_price, sec_status, create_time, update_time
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrderExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+
+  <select id="selectByFirstOrderId" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    where first_bm_order_id = #{orderId}
+  </select>
+
+  <select id="selectBySecOrderId" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    where sec_bm_order_id = #{orderId}
+  </select>
+
+  <select id="selectActiveBuyOrder" resultMap="BaseResultMap" >
+
+    select
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    where quatity>0 order by id desc limit 1
+
+  </select>
+
+  <select id="selectActiveSellOrder" resultMap="BaseResultMap" >
+
+    select
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    where quatity <![CDATA[<]]> 0 order by id desc limit 1
+
+  </select>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from bitmex_order
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from bitmex_order
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrderExample" >
+    delete from bitmex_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrder" >
+    insert into bitmex_order (id, first_bm_order_id, quatity, 
+      real_quatity, first_price, first_status, 
+      sec_bm_order_id, sec_quatity, sec_price, 
+      sec_status, create_time, update_time
+      )
+    values (#{id,jdbcType=BIGINT}, #{firstBmOrderId,jdbcType=VARCHAR}, #{quatity,jdbcType=INTEGER}, 
+      #{realQuatity,jdbcType=INTEGER}, #{firstPrice,jdbcType=DECIMAL}, #{firstStatus,jdbcType=VARCHAR}, 
+      #{secBmOrderId,jdbcType=VARCHAR}, #{secQuatity,jdbcType=INTEGER}, #{secPrice,jdbcType=DECIMAL}, 
+      #{secStatus,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrder" >
+    insert into bitmex_order
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="firstBmOrderId != null" >
+        first_bm_order_id,
+      </if>
+      <if test="quatity != null" >
+        quatity,
+      </if>
+      <if test="realQuatity != null" >
+        real_quatity,
+      </if>
+      <if test="firstPrice != null" >
+        first_price,
+      </if>
+      <if test="firstStatus != null" >
+        first_status,
+      </if>
+      <if test="secBmOrderId != null" >
+        sec_bm_order_id,
+      </if>
+      <if test="secQuatity != null" >
+        sec_quatity,
+      </if>
+      <if test="secPrice != null" >
+        sec_price,
+      </if>
+      <if test="secStatus != null" >
+        sec_status,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="firstBmOrderId != null" >
+        #{firstBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="quatity != null" >
+        #{quatity,jdbcType=INTEGER},
+      </if>
+      <if test="realQuatity != null" >
+        #{realQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="firstPrice != null" >
+        #{firstPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="firstStatus != null" >
+        #{firstStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="secBmOrderId != null" >
+        #{secBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="secQuatity != null" >
+        #{secQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="secPrice != null" >
+        #{secPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="secStatus != null" >
+        #{secStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrderExample" resultType="java.lang.Integer" >
+    select count(*) from bitmex_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update bitmex_order
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.firstBmOrderId != null" >
+        first_bm_order_id = #{record.firstBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.quatity != null" >
+        quatity = #{record.quatity,jdbcType=INTEGER},
+      </if>
+      <if test="record.realQuatity != null" >
+        real_quatity = #{record.realQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="record.firstPrice != null" >
+        first_price = #{record.firstPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.firstStatus != null" >
+        first_status = #{record.firstStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.secBmOrderId != null" >
+        sec_bm_order_id = #{record.secBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.secQuatity != null" >
+        sec_quatity = #{record.secQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="record.secPrice != null" >
+        sec_price = #{record.secPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.secStatus != null" >
+        sec_status = #{record.secStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null" >
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updateTime != null" >
+        update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update bitmex_order
+    set id = #{record.id,jdbcType=BIGINT},
+      first_bm_order_id = #{record.firstBmOrderId,jdbcType=VARCHAR},
+      quatity = #{record.quatity,jdbcType=INTEGER},
+      real_quatity = #{record.realQuatity,jdbcType=INTEGER},
+      first_price = #{record.firstPrice,jdbcType=DECIMAL},
+      first_status = #{record.firstStatus,jdbcType=VARCHAR},
+      sec_bm_order_id = #{record.secBmOrderId,jdbcType=VARCHAR},
+      sec_quatity = #{record.secQuatity,jdbcType=INTEGER},
+      sec_price = #{record.secPrice,jdbcType=DECIMAL},
+      sec_status = #{record.secStatus,jdbcType=VARCHAR},
+      create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      update_time = #{record.updateTime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrder" >
+    update bitmex_order
+    <set >
+      <if test="firstBmOrderId != null" >
+        first_bm_order_id = #{firstBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="quatity != null" >
+        quatity = #{quatity,jdbcType=INTEGER},
+      </if>
+      <if test="realQuatity != null" >
+        real_quatity = #{realQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="firstPrice != null" >
+        first_price = #{firstPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="firstStatus != null" >
+        first_status = #{firstStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="secBmOrderId != null" >
+        sec_bm_order_id = #{secBmOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="secQuatity != null" >
+        sec_quatity = #{secQuatity,jdbcType=INTEGER},
+      </if>
+      <if test="secPrice != null" >
+        sec_price = #{secPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="secStatus != null" >
+        sec_status = #{secStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yoyo.spot.mmaker.server.entity.BitmexOrder" >
+    update bitmex_order
+    set first_bm_order_id = #{firstBmOrderId,jdbcType=VARCHAR},
+      quatity = #{quatity,jdbcType=INTEGER},
+      real_quatity = #{realQuatity,jdbcType=INTEGER},
+      first_price = #{firstPrice,jdbcType=DECIMAL},
+      first_status = #{firstStatus,jdbcType=VARCHAR},
+      sec_bm_order_id = #{secBmOrderId,jdbcType=VARCHAR},
+      sec_quatity = #{secQuatity,jdbcType=INTEGER},
+      sec_price = #{secPrice,jdbcType=DECIMAL},
+      sec_status = #{secStatus,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
