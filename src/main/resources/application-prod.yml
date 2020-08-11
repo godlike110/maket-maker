@@ -55,30 +55,6 @@ mybatis:
   mapper-locations: classpath*:mybatis/*.xml
 
 yoyo-spot:
-  host: http://api.yoyoex.com
-  apiid: 281772604967854080
-  privateKey: MIIEogIBAAKCAQEAum7hMxwXUW+FbdYEDLGOpTqBZBd1a9MSsvFMGkSxq25F6jyg
-    zQRk0p3GGpGUnKt2MUl8a+LbNu4v7KwojhAv2ASNPdF9WVZV9uWCzHOv/vWpgcal
-    MqrQLAU8+JlLj83MRX36z7bfX+glZ6ILHu0bG5w6P5Tj5ueKU8E3I5DeB1zgiA/o
-    YPrBH2Nsjtl4uupJtB+W/csXx2YCc6NH3bIESDN+sfsd0fjIyImzee0fFAG+rsTc
-    awJ0+o9/I38J7Po/EHApChLYth5F9G7Z3erV6Klktwr4lIZoFJ02JM3WpFiYwBou
-    KPKOw9fqFrRwa+6VEEPDMTHP3kvGi+tCTNfzcwIDAQABAoIBABbkLHSpG1fdeKWu
-    5JpmZtx03ZRbqQhPR3l/VVfYXXRuOtlzDk9+HZ8azktO2s+N4hpVKpjYpxAMmQfX
-    b7dZ13YPwQP5KAoDJtUFA1V1UwPcSC7uJDSfcqYlEoJ32CZVH6LcwCInEzBkgctC
-    w1jNxklSmnhaIM2mWn7EN6//RrPihuyqyK+yE8o3bsoq42Izt0VAlPYpX2nqPS5u
-    4WuXMuCvNe25Aqvf5xjJHV1r3oq1SfqRkcmYAe23iyrHPOUDkuOsj3fDSkwKLZp+
-    eFHZBennywQ/mybO654cDPg/2cTNoT9HHwn0IGIa/+58ZnAjsyvtN9L0tV39e834
-    SgIL7IkCgYEA3BIoMAoLqtOqxa5W8/w/wukGJSS587beXT0GUELa4Pmo4opRBV9E
-    /G1CvFncB7WhrMJ0fwQT1u7BLikaxrcFyAIumkHXeOWtp8laSU7WC4GqsVN0LN09
-    658C3xed3wP1S+N8Rm5AkRUaS4RE2CxOJP+eqkIPkTQj6T+Mri91KhUCgYEA2N7V
-    gwFth1ml+jVNTzt3OpH3v3K+0nRvHUlROZH6BaD/iRG3IFdjcHVbcrvhPty14UDr
-    WNDYLCn7RZxOtCOlwzVXDxL39d25AQWiTEckEYnnOaOTwsNm0oNLBwgyzE7eu8Pi
-    5dFvtqsaES3dOZ6FUraiHWoK6l6at1zYfLCOMWcCgYBt93S1bI+f8NzootE4YdfK
-    oX48mTmCGuLKXHAHMyEEQjyt1sfdk1l5eW9bhtt3zr7XAOQNhBAV2oAVfNywZ0ww
-    QUbgNf5hnwNDUE4ZS5eRcF3G9hibQoJqdq6Mo9RzWBr+rNGwr+77kDvveEyeaKUz
-    v7edBB2bRR6csvCtKXG2cQKBgAaWpnfnaDNvdspmKiYZEWM3Igav7rooDWQfYRdV
-    pvnazUiVwDF8VioJdrDConItdF0Wgs/c8GRPFjIkMIPqfVOz4CQ2GFBg3wj36dlV
-    Y/Qgc2Td4lRNaWdF09av2hM45i1gIxmGRlWPVyhkc08X0McVg1FPcmtyWlLtwCnx
-    lzBLAoGARXISUnEk/CstbFwTLqRbSiE6P5ngWg0E9c0F+geQMlyszfO1Un7Erq3s
-    4QGDl+jPZ7Te25BcVLY/ZkzHqOmvh7yMyuG6VCkCYs5PdFrP5XBbGA3sQz9pK0EO
-    16XoIEN0Qt7JOdDiHn2GostN2LW5P06Cdyi35VxnISDzXTmKESE=
+  host: https://tapi.bitflex.pro:9000
+  apiid: AAqV6N2eNwJWIH0lk28xM4tC2D2CikzF
+  privateKey: ishwncDjoP2dPyUfRRgMfJFnqBJ5ILaP

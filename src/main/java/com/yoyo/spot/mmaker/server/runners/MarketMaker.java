@@ -62,7 +62,7 @@ public class MarketMaker implements Runnable {
     }
 
     public BigDecimal initAsset() {
-        AccountBalance[] accountBalances = apiRestClient.getAllUserAssets("");
+        AccountBalance[] accountBalances = apiRestClient.getAllUserAssets(assetSymbol);
         for (AccountBalance ab:accountBalances) {
             if(ab.getAssetSymbol().equalsIgnoreCase(this.assetSymbol)) {
                 return ab.getTotalBalance();
@@ -223,7 +223,7 @@ public class MarketMaker implements Runnable {
             }
         }));
 
-        apiRestClient.cancelOrders(orderIds);
+        apiRestClient.cancelOrders(symbol,orderIds);
 
         return;
 

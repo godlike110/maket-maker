@@ -27,7 +27,7 @@ import java.util.Random;
  * <p>
  * time:2020/2/13
  **/
-//@Service
+@Service
 public class MakerCategory {
 
     private static Logger logger = LoggerFactory.getLogger(MakerCategory.class);
@@ -36,13 +36,13 @@ public class MakerCategory {
     private SpotApiService spotApiService;
 
 
-    String symbol = "GGC/USDT";
+    String symbol = "BWUSDT";
     //最小挂单深度
     private int minDepth = 13;
     //挂单最小跨度
     private BigDecimal step = new BigDecimal("0.0007");
     private BigDecimal minStep = new BigDecimal("0.0001");
-    private BigDecimal qty = new BigDecimal(1);
+    private BigDecimal qty = new BigDecimal(10);
 
 
 
@@ -163,10 +163,10 @@ public class MakerCategory {
 
             long buyOrerId = spotApiService.placeOrder(symbol,OrderSide.BUY,buyOnePrice,buyadd);
             Thread.sleep(400);
-            spotApiService.cancalOrders(buyOrerId);
+            spotApiService.cancalOrders(symbol,buyOrerId);
             long sellOrderId = spotApiService.placeOrder(symbol,OrderSide.SELL,sellOnePrice,selladd);
             Thread.sleep(400);
-            spotApiService.cancalOrders(sellOrderId);
+            spotApiService.cancalOrders(symbol,sellOrderId);
 
 
         }
@@ -179,7 +179,7 @@ public class MakerCategory {
         for(int i=1;i<=limt;i++) {
             orders.add(cancelList.get(cancelList.size()-i).getOrderId());
         }
-        spotApiService.cancalOrders(orders.toArray(new Long[orders.size()]));
+        spotApiService.cancalOrders(symbol,orders.toArray(new Long[orders.size()]));
 
     }
 
@@ -194,7 +194,7 @@ public class MakerCategory {
                         return bookEntity.getOrderId();
                     }
                 }));
-                spotApiService.cancalOrders(sellOrders.toArray(new Long[sellOrders.size()]));
+                spotApiService.cancalOrders(symbol,sellOrders.toArray(new Long[sellOrders.size()]));
                 break;
             case BUY:
                 List<Long> buyOrders = Lists.newArrayList(Collections2.transform(orderBook.getBuyList(), new Function<BookEntity, Long>() {
@@ -204,7 +204,7 @@ public class MakerCategory {
                         return bookEntity.getOrderId();
                     }
                 }));
-                spotApiService.cancalOrders(buyOrders.toArray(new Long[buyOrders.size()]));
+                spotApiService.cancalOrders(symbol,buyOrders.toArray(new Long[buyOrders.size()]));
                 break;
         }
 

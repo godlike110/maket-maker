@@ -38,7 +38,7 @@ import java.util.List;
  * <p>
  * time:2020/2/18
  **/
-//@Service
+@Service
 public class MainCoinMakerCategory {
 
     private static Logger logger = LoggerFactory.getLogger(MakerCategory.class);

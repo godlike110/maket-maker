@@ -34,10 +34,6 @@ public class SpotMMakerConfig {
     @Bean("spotApiClient")
     YoSpotApiRestClient intSpotApiClient() {
 
-        privateKey = "-----BEGIN RSA PRIVATE KEY-----\r\n" +
-                "" + privateKey + "\r\n" +
-                "-----END RSA PRIVATE KEY-----";
-
         YoSpotApiClientFactory factory = YoSpotApiClientFactory.newInstance(host,apiId, privateKey);
         YoSpotApiRestClient client = factory.newRestClient();
         return client;

@@ -59,9 +59,9 @@ public class SpotApiService {
      * 撤单
      * @param orderIds
      */
-    public void cancalOrders(Long... orderIds) {
+    public void cancalOrders(String symbol,Long... orderIds) {
 
-        Long[] result = apiRestClient.cancelOrders(Arrays.asList(orderIds));
+        Long[] result = apiRestClient.cancelOrders(symbol,Arrays.asList(orderIds));
         logger.info("cancelOrder result:{}", JSON.toJSONString(result));
 
     }
