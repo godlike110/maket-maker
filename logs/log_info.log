@@ -1,0 +1,154 @@
+2020-08-11 12:29:37.233 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 26085 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:29:37.236 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:29:38.957 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:29:39.182 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1898 ms
+2020-08-11 12:29:40.159 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:29:40.176 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:29:40.176 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:29:40.184 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:29:40.184 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:29:40.581 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:30:05.247 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:30:05.575 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2020-08-11 12:30:05.591 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 15 endpoint(s) beneath base path ''
+2020-08-11 12:30:05.674 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 9334 (http) with context path ''
+2020-08-11 12:30:05.679 INFO  com.yoyo.spot.mmaker.server.App Line:59  - Started App in 34.031 seconds (JVM running for 34.61)
+2020-08-11 12:30:49.781 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2020-08-11 12:30:49.782 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:31:47.059 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 26842 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:31:47.062 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:31:48.676 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:31:48.915 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1806 ms
+2020-08-11 12:31:49.849 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:31:49.919 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:31:49.919 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:31:49.928 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:31:49.928 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:31:49.984 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-11 12:34:21.383 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 27635 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:34:21.386 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:34:22.919 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:34:23.133 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1704 ms
+2020-08-11 12:34:24.119 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:34:24.134 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:34:24.134 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:34:24.142 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:34:24.142 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:34:24.973 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:34:25.202 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:34:25.492 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2020-08-11 12:34:25.525 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 15 endpoint(s) beneath base path ''
+2020-08-11 12:34:25.619 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 9334 (http) with context path ''
+2020-08-11 12:34:25.624 INFO  com.yoyo.spot.mmaker.server.App Line:59  - Started App in 9.803 seconds (JVM running for 10.314)
+2020-08-11 12:36:43.618 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2020-08-11 12:36:43.621 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:37:16.802 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 28571 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:37:16.804 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:37:18.540 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:37:18.772 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1925 ms
+2020-08-11 12:37:19.865 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:37:19.887 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:37:19.887 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:37:19.897 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:37:19.898 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:37:20.236 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:38:45.185 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 29024 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:38:45.187 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:38:46.658 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:38:46.858 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1628 ms
+2020-08-11 12:38:47.778 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:38:47.797 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:38:47.798 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:38:47.805 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:38:47.806 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:38:48.060 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:39:32.033 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 29251 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:39:32.035 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:39:33.506 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:39:33.712 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1633 ms
+2020-08-11 12:39:36.751 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:39:36.831 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:39:36.831 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:39:36.842 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:39:36.843 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:39:36.940 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-11 12:40:14.693 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 29437 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:40:14.695 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:40:16.081 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:40:16.242 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1508 ms
+2020-08-11 12:40:19.916 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:40:19.959 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:40:19.959 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:40:20.003 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:40:20.003 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:40:24.665 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:40:24.870 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:40:46.548 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2020-08-11 12:40:46.563 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 15 endpoint(s) beneath base path ''
+2020-08-11 12:40:46.642 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 9334 (http) with context path ''
+2020-08-11 12:40:46.646 INFO  com.yoyo.spot.mmaker.server.App Line:59  - Started App in 37.472 seconds (JVM running for 37.999)
+2020-08-11 12:40:46.653 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2020-08-11 12:40:46.654 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:41:09.164 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 29696 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:41:09.166 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:41:10.957 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:41:11.142 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1938 ms
+2020-08-11 12:41:15.201 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:41:15.217 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:41:15.217 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:41:15.227 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:41:15.227 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:41:15.387 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-11 12:41:38.114 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 29813 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:41:38.117 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:41:39.624 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:41:39.805 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1644 ms
+2020-08-11 12:41:42.753 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:41:42.792 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:41:42.792 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:41:42.838 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:41:42.839 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:41:46.555 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:42:37.597 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:42:38.673 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2020-08-11 12:42:38.688 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 15 endpoint(s) beneath base path ''
+2020-08-11 12:42:39.179 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 9334 (http) with context path ''
+2020-08-11 12:42:39.185 INFO  com.yoyo.spot.mmaker.server.App Line:59  - Started App in 66.677 seconds (JVM running for 67.317)
+2020-08-11 12:44:39.828 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2020-08-11 12:44:39.832 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:44:53.701 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 30761 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:44:53.704 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:44:55.199 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:44:55.380 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1635 ms
+2020-08-11 12:45:15.393 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:45:15.415 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:45:15.416 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:45:15.456 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:45:15.456 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:45:15.574 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-11 12:47:40.750 INFO  com.yoyo.spot.mmaker.server.App Line:50  - Starting App on wenzhiweideMacBook-Pro.local with PID 31630 (/Users/wenzhiwei/workspace/maket-maker/target/classes started by wenzhiwei in /Users/wenzhiwei/workspace/maket-maker)
+2020-08-11 12:47:40.752 INFO  com.yoyo.spot.mmaker.server.App Line:679 - The following profiles are active: prod
+2020-08-11 12:47:42.194 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 9334 (http)
+2020-08-11 12:47:42.376 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1584 ms
+2020-08-11 12:47:46.341 INFO  com.yoyo.spot.mmaker.server.runners.StatusUpdater Line:38  - 交易对:BTCUSDT 账户订单同步启动
+2020-08-11 12:47:46.361 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 0] created for PriceDepth for [btcusdt]
+2020-08-11 12:47:46.361 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][0] Connecting...
+2020-08-11 12:47:46.371 INFO  com.huobi.client.impl.WebSocketConnection Line:94  - [Sub] Connection [id: 1] created for Trade for [btcusdt]
+2020-08-11 12:47:46.372 INFO  com.huobi.client.impl.WebSocketConnection Line:108 - [Sub][1] Connecting...
+2020-08-11 12:47:48.276 INFO  com.yoyo.spot.mmaker.server.runners.MarketMaker Line:394 - 交易对:BTCUSDT 挂单刷量策略启动
+2020-08-11 12:47:48.482 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:47:50.048 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2020-08-11 12:47:50.064 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 15 endpoint(s) beneath base path ''
+2020-08-11 12:47:50.143 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 9334 (http) with context path ''
+2020-08-11 12:47:50.148 INFO  com.yoyo.spot.mmaker.server.App Line:59  - Started App in 14.912 seconds (JVM running for 15.424)
+2020-08-11 12:49:23.725 INFO  com.huobi.client.impl.WebSocketConnection Line:267 - [Sub][1] Connected to server
+2020-08-11 12:49:23.816 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2020-08-11 12:49:23.818 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'

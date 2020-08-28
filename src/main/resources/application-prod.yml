@@ -55,6 +55,6 @@ mybatis:
   mapper-locations: classpath*:mybatis/*.xml
 
 yoyo-spot:
-  host: https://tapi.bitflex.pro:9000
-  apiid: AAqV6N2eNwJWIH0lk28xM4tC2D2CikzF
-  privateKey: ishwncDjoP2dPyUfRRgMfJFnqBJ5ILaP
+  host: https://api.bitwired.com
+  apiid: uo3a6u07df2R8Z4TICDaKAWv5Rfo24dL
+  privateKey: Kr8tsJcLjV2tOM13JMouaKRGNf7uCGnz

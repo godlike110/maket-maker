@@ -27,7 +27,7 @@ import java.util.Random;
  * <p>
  * time:2020/2/13
  **/
-@Service
+//@Service
 public class MakerCategory {
 
     private static Logger logger = LoggerFactory.getLogger(MakerCategory.class);
